@@ -9,7 +9,7 @@
 <!--    <p class="mt-4 text-9xl dark:text-white font-bold text-gray-600">FancyWeb</p>-->
 <!--  </div>-->
   <div class="bg-success-subtle pt-5">
-    <div class="container text-center bg-white">
+    <div class="container text-center bg-white" style="border-radius: 20px;">
 
       <div class="row">
         <div class="col-4">
@@ -84,6 +84,11 @@
       </div>
 
       <div class="row">
+        <div class="col-12 d-flex flex-column text-start">
+          <p  style="font-size: 2rem" class="ps-3" >地址: XXXXXXXXXXXXXXXXXXXX</p>
+          <p  style="font-size: 2rem" class="ps-3" >連略方式: XXXXXXXXXXXXXXXXXXXX</p>
+
+        </div>
         <div class="col-3">
           <img src="/LineCode.png" class="w-100" alt="">
         </div>
