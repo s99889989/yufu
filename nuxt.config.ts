@@ -5,18 +5,18 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=500, initial-scale=1',
-      title: 'FancyWeb',
+      title: '愈富環保企業社',
       meta: [
-        { name: 'description', content: 'FancyWeb' },
-        { name: 'og:title', content: 'FancyWeb' },
-        { name: 'og:description', content: 'FancyWeb' },
-        { name: 'og:image', content: '/head.png' },
+        { name: 'description', content: '愈富環保企業社' },
+        { name: 'og:title', content: '愈富環保企業社' },
+        { name: 'og:description', content: '愈富環保企業社' },
+        { name: 'og:image', content: '/favicon.png' },
 
       ],
       link: [
         {
           rel: "icon",
-          href: "/head.png",
+          href: "/favicon.png",
         },
         {
           href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
