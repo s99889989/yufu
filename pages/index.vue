@@ -8,7 +8,7 @@
 <!--    <h1 class="text-6xl dark:text-white font-semibold text-sky-400">2023</h1>-->
 <!--    <p class="mt-4 text-9xl dark:text-white font-bold text-gray-600">FancyWeb</p>-->
 <!--  </div>-->
-  <div class="bg-success-subtle pt-5">
+  <div class="bg-success-subtle py-5">
     <div class="container text-center bg-white" style="border-radius: 20px;">
 
       <div class="row">
