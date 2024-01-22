@@ -12,10 +12,10 @@
     <div class="container text-center bg-white" style="border-radius: 20px;">
 
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-lg-4">
           <img class="w-100" src="/Logo.jpg" alt="">
         </div>
-        <div class="col-8 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center">
           <p style="font-size: 5rem" class="text-success align-middle" >愈富環保企業社</p>
         </div>
       </div>
