@@ -1,5 +1,16 @@
 <script setup lang="ts">
 // import { Dropdown } from "flowbite-react";
+
+const to1 = () => {
+  window.location.href = "#1";
+}
+const to2 = () => {
+  window.location.href = "#2";
+}
+const to3 = () => {
+  window.location.href = "#3";
+}
+
 </script>
 
 <template>
@@ -21,18 +32,18 @@
           <p style="font-size: 5rem" class="text-success align-middle" >愈富環保企業社</p>
         </div>
       </div>
-      <div class="row bg-body border-white ">
+      <div class="row bg-body border-white">
         <div class="col-4">
-          <i class="fa-solid fa-glass-water-droplet"></i>
-          <p class="font-sm">抽水肥</p>
+          <i style="cursor: pointer" @click="to1()" class="fa-solid fa-glass-water-droplet"></i>
+          <a id="b1" href="#1" class="font-sm text-decoration-none text-reset">抽水肥</a>
         </div>
         <div class="col-4">
-          <i class="fa-solid fa-glass-water-droplet"></i>
-          <p class="">水刀通管</p>
+          <i style="cursor: pointer" @click="to2()" class="fa-solid fa-glass-water-droplet"></i>
+          <a href="#2" class="font-sm text-decoration-none text-reset">水刀通管</a>
         </div>
         <div class="col-4">
-          <i class="fa-solid fa-glass-water-droplet"></i>
-          <p class="">化糞池菌種馴養</p>
+          <i style="cursor: pointer" @click="to3()" class="fa-solid fa-glass-water-droplet"></i>
+          <a href="#3" class="font-sm text-decoration-none text-reset">化糞池菌種馴養</a>
         </div>
 
       </div>
@@ -43,16 +54,16 @@
 
       <div class="row">
         <div class="col-6">
-          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="pt-5 w-75" alt="">
+          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class=" w-75" alt="">
           <p style="font-size: 1.2rem">甲級廢棄物處理證照</p>
         </div>
         <div class="col-6">
-          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="pt-5 w-75" alt="">
+          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class=" w-75" alt="">
           <p style="font-size: 1.2rem">公民營事業廢棄物清除許可證</p>
         </div>
       </div>
 
-      <div class="row rounded m-1 border-1 border-body-tertiary">
+      <div id="1" class="row rounded m-1 border-1 border-body-tertiary">
         <p style="font-size: 2rem" class="font-sm">合法抽水肥</p>
       </div>
 
@@ -60,21 +71,21 @@
 
         <div class="col-3">
 
-          <img src="/抽水肥_2.jpg" style="border-radius: 10px;object-fit: cover;" class="pt-2 w-100" alt="">
+          <img src="/抽水肥_2.jpg" style="border-radius: 10px;object-fit: cover;" class="w-100" alt="">
           <p style="font-size: 1.2rem">抽化糞池前</p>
         </div>
         <div class="col-1 d-flex justify-content-center align-items-center">
           <i style="font-size: 2rem" class="fa-solid fa-arrow-right"></i>
         </div>
         <div class="col-3">
-          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="pt-2 w-100" alt="">
+          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="w-100" alt="">
           <p style="font-size: 1.2rem">抽化糞池後</p>
         </div>
         <div class="col-1 d-flex justify-content-center align-items-center">
           <i style="font-size: 2rem" class="fa-solid fa-arrow-right"></i>
         </div>
         <div class="col-3">
-          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="pt-2 w-100" alt="">
+          <img src="/抽水肥_3.jpg" style="border-radius: 10px;object-fit: cover;" class="w-100" alt="">
           <p style="font-size: 1.2rem">投放菌種</p>
         </div>
       </div>
@@ -83,7 +94,7 @@
         <p style="font-size: 1.5rem">傳統通管</p>
         <p>傳統通管機使用各式接頭將管路內的污染物推出，但並無完全清洗管路，仍會有污染物垢</p>
         <p>殘留於管壁，且再次堵塞的風險，特別無法處理因油質堵住等管路。</p>
-        <p style="font-size: 1.5rem">水刀通管</p>
+        <p id="2" style="font-size: 1.5rem">水刀通管</p>
         <p>水刀通管機則是利用高壓水槍搭配合適的噴頭清洗管路，以徹底疏通，恢復管路內至接近新品。</p>
       </div>
 
@@ -121,10 +132,13 @@
           <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
           <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
           <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
+          <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
+          <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
+          <i class="px-2 fa-xl fa-solid fa-arrow-down"></i>
         </div>
       </div>
 
-      <div class="row">
+      <div id="3" class="row">
         <div class="col-12 d-flex flex-column text-start">
 
           <p  style="font-size: 2rem" class="ps-3" >地址: XXXXXXXXXXXXXXXXXXXX</p>
