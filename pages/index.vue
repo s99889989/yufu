@@ -130,17 +130,17 @@ const to3 = () => {
     <div class="row justify-content-center">
 
       <div class="col-4">
-        <img src="/水刀_2.jpg" class="w-100 rounded" alt="">
+        <img src="/水刀_2.jpg" class="w-100 rounded pipe" alt="">
         <p style="font-size: 1.2rem">清洗前</p>
       </div>
 
       <div class="col-4">
-        <img src="/水刀_1.jpg" class="w-100 rounded" alt="">
+        <img src="/水刀_1.jpg" class="w-100 rounded pipe" alt="">
         <p style="font-size: 1.2rem">清洗後</p>
       </div>
 
       <div class="col-4">
-        <video class="embed-responsive-item rounded w-100" controls>
+        <video class="embed-responsive-item rounded w-100 pipe" controls>
           <source src="/video/727605640.571123.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -204,6 +204,9 @@ const to3 = () => {
 
 <style scoped>
 @media(min-width: 576px){
+  .pipe {
+    height: 25rem
+  }
 
 }
 </style>
