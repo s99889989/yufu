@@ -113,13 +113,14 @@ const to3 = () => {
 
   </div>
 
-  <div id="3" class="container text-center bg-white">
+  <div id="3" class="container bg-white">
 
     <div class="col-12 d-flex" style="padding-top: 100px">
       <p class=" fs-1 fw-semibold ms-1 ms-md-5">通管</p>
     </div>
+<!--  row rounded m-1 border-1  border-body-tertiary -->
 
-    <div class="row rounded m-1 border-1 border-body-tertiary">
+    <div class="m-1">
       <p style="font-size: 1.5rem">傳統通管</p>
       <p>傳統通管機使用各式接頭將管路內的污染物推出，但並無完全清洗管路，仍會有污染物垢</p>
       <p>殘留於管壁，且再次堵塞的風險，特別無法處理因油質堵住等管路。</p>
