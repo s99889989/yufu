@@ -7,11 +7,10 @@ export default defineNuxtConfig({
       viewport: 'width=500, initial-scale=1',
       title: '愈富環保企業社',
       meta: [
-        { name: 'description', content: '愈富環保企業社' },
+        { name: 'description', content: '台東合法認證，專業水肥清潔服務。合法持照・專業施作・服務台東地區抽水肥・水刀通管・化糞池菌種馴養。電話：0905-537307' },
         { name: 'og:title', content: '愈富環保企業社' },
-        { name: 'og:description', content: '愈富環保企業社' },
-        { name: 'og:image', content: '/favicon.png' },
-
+        { name: 'og:description', content: '台東合法認證，專業水肥清潔服務。合法持照・專業施作・服務台東地區抽水肥・水刀通管・化糞池菌種馴養。電話：0905-537307' },
+        { name: 'og:image', content: 'https://yufuenv.netlify.app/favicon.png' },
       ],
       link: [
         {
